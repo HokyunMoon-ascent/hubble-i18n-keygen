@@ -1,0 +1,56 @@
+[
+  {
+    "loc2": "플랜 비교표",
+    "key1": "plan",
+    "key2": "tableaiOptimizer",
+    "kr": "AI 옵티마이저",
+    "jp": "AIオプティマイザー",
+    "us": "AI Optimizer",
+    "memo": "플랜 비교표 aiOptimizer 기능명 행. plan.tablecepFinder 패턴 미러링."
+  },
+  {
+    "loc2": "플랜 비교표",
+    "key1": "plan",
+    "key2": "tableaiOptimizer1",
+    "kr": "AI 옵티마이저 분석 횟수/구독 월",
+    "jp": "AIオプティマイザー分析回数/購読月",
+    "us": "AI Optimizer Analysis Count/Subscription Month",
+    "memo": "지표 라벨. cepFinder.tablecepFinder1('프로젝트 생성 횟수/구독 월') 대응."
+  },
+  {
+    "loc2": "플랜 비교표",
+    "key1": "plan",
+    "key2": "tableaiOptimizer1Trial",
+    "kr": "1회",
+    "jp": "1回",
+    "us": "1times",
+    "memo": "티어별 제공량(Trial). cepFinder와 동일 1/10/20 구성."
+  },
+  {
+    "loc2": "플랜 비교표",
+    "key1": "plan",
+    "key2": "tableaiOptimizer1Standard",
+    "kr": "10회",
+    "jp": "10回",
+    "us": "10times",
+    "memo": "티어별 제공량(Standard). cepFinder와 동일 1/10/20 구성."
+  },
+  {
+    "loc2": "플랜 비교표",
+    "key1": "plan",
+    "key2": "tableaiOptimizer1Above",
+    "kr": "20회",
+    "jp": "20回",
+    "us": "20times",
+    "memo": "티어별 제공량(Above). cepFinder와 동일 1/10/20 구성."
+  },
+  {
+    "loc2": "플랜 비교표",
+    "key1": "tooltip",
+    "key2": "tableaiOptimizer1",
+    "kr": "Trial 체험 기간동안 총 1회 분석을 제공합니다.",
+    "jp": "Trial体験期間中、計1回の分析を提供します。",
+    "us": "We offer a total of one analysis during the Trial experience.",
+    "memo": "Trial 안내 툴팁. tooltip.tablecepFinder1 대응('검색'→'분석')."
+  }
+]
