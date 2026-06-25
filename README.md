@@ -13,6 +13,14 @@ Given a Figma screen or a description of new UI strings, it:
 
 Adding a localized feature to Hubble used to mean hand-repeating the same five steps and a near-identical `make_*_keys.py` script every time. This packages that process so it is consistent and fast.
 
+## Prerequisites
+
+- [Claude Code](https://claude.com/claude-code) (for the `/hubble-i18n-keygen` workflow) — the scripts also run standalone with just Python.
+- Python 3.9+ (standard library only — no `pip install` needed).
+- **Project data files you supply at runtime** (these are *not* in this repo — they are product data):
+  - `hubble_ko-KR.json`, `hubble_ja-JP.json`, `hubble_en-US.json` — the current shipped strings, used for dedup and translation reuse. Shape: `{ key1: { key2: "value", ... }, ... }`.
+  - `aiOptimizer_sheet.csv` — the master sheet whose 34-column header the output mirrors. Only the first row (header) is read.
+
 ## Install (as a Claude Code skill)
 
 ```bash
@@ -20,7 +28,7 @@ git clone https://github.com/HokyunMoon-ascent/hubble-i18n-keygen.git \
   ~/.claude/skills/hubble-i18n-keygen
 ```
 
-Then invoke `/hubble-i18n-keygen` in Claude Code, or just hand it a Figma node + new strings.
+Then invoke `/hubble-i18n-keygen` in Claude Code, or just hand it a Figma node + new strings. Have the prerequisite files above ready and tell the skill where they are.
 
 ## Layout
 
